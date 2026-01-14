@@ -1,0 +1,18 @@
+# Site Settings
+title: "Dornen.work"
+email: "blank@blank.com"
+description: "A blog using the console theme"
+baseurl: ""
+url: "https://dornen.work"
+
+# Theme Specific Settings
+theme: jekyll-theme-console
+style: dark # Options: dark (default), light, or hacker
+header_pages:
+  - index.md
+  - about.md # Create an about.md if you want this link
+
+footer: 'built with <a href="https://jekyllrb.com/">jekyll</a>'
+
+plugins:
+  - jekyll-seo-tag
