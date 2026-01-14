@@ -11,7 +11,6 @@ header_pages:
   - index.md
   - about.md
 
-footer: '[Telegram](https://t.me/dornendin), [Github](https://github.com/d-ornen)'
-
+footer: '<a href="https://t.me/dornendin">Telegram</a>, <a href="https://github.com/d-ornen">Github</a>'
 plugins:
   - jekyll-seo-tag
