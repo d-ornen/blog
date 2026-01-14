@@ -1,6 +1,10 @@
 ---
 layout: post
-title: "Setting up Terraform"
+title: "Comparative Performance Analysis of Graph Databases"
 date: 2026-01-14
 ---
-Today I learned how to host a Jekyll site using Cloudflare and Terraform.
+
+<meta http-equiv="refresh" content="0; url=https://t4itech.com/blog/comparative-performance-analysis-of-graph-databases" />
+
+<p>Redirecting to the original article at T4iTech...</p>
+<p><a href="https://t4itech.com/blog/comparative-performance-analysis-of-graph-databases">Click here if you are not redirected automatically.</a></p>
