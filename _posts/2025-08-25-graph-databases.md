@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Comparative Performance Analysis of Graph Databases"
+title: "Comparative Performance Analysis of Graph Databases (external)"
 date: 2025-08-25
 ---
 
