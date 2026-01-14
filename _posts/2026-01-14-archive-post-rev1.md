@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting up Terraform"
+title: "Future archive post 1"
 date: 2026-01-14
 ---
 extract text later from first pdf writeup.
