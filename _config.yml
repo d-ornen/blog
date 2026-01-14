@@ -7,7 +7,7 @@ url: "https://dornen.work"
 
 # Theme Specific Settings
 theme: jekyll-theme-console
-style: nord # Options: dark (default), light, or hacker
+style: dark # Options: dark (default), light, or hacker
 header_pages:
   - index.md
   - about.md # Create an about.md if you want this link
