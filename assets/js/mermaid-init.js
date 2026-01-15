@@ -1,25 +1,33 @@
 document.addEventListener("DOMContentLoaded", function() {
+  // 1. Initialize with specific security settings
   mermaid.initialize({ 
     startOnLoad: false, 
     theme: 'default',
     securityLevel: 'loose' 
   });
 
-  // Target the specific wrapper Jekyll creates
   const containers = document.querySelectorAll('.language-mermaid');
 
-  containers.forEach((container) => {
-    // .innerText safely gets only the text, ignoring the <code> tags
-    const code = container.innerText.trim();
+  containers.forEach((container, index) => {
+    // 2. Extract and Clean Text
+    // We use a temporary textarea to decode any HTML entities (like &gt; to >)
+    let code = container.innerText.trim();
+    const decoder = document.createElement('textarea');
+    decoder.innerHTML = code;
+    code = decoder.value;
 
+    // 3. Create the replacement div
     const mermaidDiv = document.createElement('div');
     mermaidDiv.className = 'mermaid';
+    mermaidDiv.id = 'mermaid-diagram-' + index; // Unique ID helps the parser
     mermaidDiv.textContent = code;
 
-    // Replace the entire highlighter block with the Mermaid div
+    // 4. Swap the elements
     container.parentNode.replaceChild(mermaidDiv, container);
   });
 
-  // Run the parser on the new .mermaid divs
-  mermaid.run();
+  // 5. Force Mermaid to run on the specific .mermaid class
+  mermaid.run({
+    querySelector: '.mermaid',
+  });
 });
