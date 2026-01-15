@@ -10,6 +10,9 @@ Primary skills: DevOps, automation
 Interests: binary deobfuscation, cryptography, OSINT, reconnaisance, machine learning.
 
 Over time I will migrate my whitepapers and researches to this blog.
-
+```mermaid
+flowchart TD
+A-->B
+```
 ## Contact
 telegram: [Dornendin](https://t.me/dornendin)
