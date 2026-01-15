@@ -1,24 +1,6 @@
 ---
 layout: default
 ---
-{% if page.mermaid %}
-  {% include mermaid.html %}
-{% endif %}
-/* Ensure the mermaid container is visible against the dark console theme */
-<style>
-  /* Ensure the mermaid container is visible against the dark console theme */
-.mermaid {
-  background-color: #1e1e1e !important; /* A slightly lighter grey than the background */
-  padding: 15px;
-  border-radius: 4px;
-  margin: 20px 0;
-}
-
-/* Force SVG text to be readable if it remains dark */
-.mermaid svg text {
-  fill: #f8f8f2 !important;
-}
-</style>
 
 <article class="post">
   <h1>{{ page.title }}</h1>
