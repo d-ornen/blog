@@ -6,7 +6,7 @@ baseurl: ""
 url: "https://dornen.work"
 
 theme: jekyll-theme-console
-style: nord
+style: light
 include:
   - _headers
 
