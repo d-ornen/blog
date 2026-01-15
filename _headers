@@ -1,2 +1,2 @@
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-2gIIFT46mX9NnyYg5bCeKEQ8OBGCY0gA7Auz/kEYZXY=' 'unsafe-eval'; style-src 'self' 'unsafe-inline';
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;
