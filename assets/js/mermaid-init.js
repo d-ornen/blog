@@ -5,24 +5,21 @@ document.addEventListener("DOMContentLoaded", function() {
     securityLevel: 'loose' 
   });
 
-  // 1. Target the outermost container Jekyll creates
-  // This is usually a div with class 'language-mermaid'
+  // Target the specific wrapper Jekyll creates
   const containers = document.querySelectorAll('.language-mermaid');
 
   containers.forEach((container) => {
-    // 2. Extract the raw text from the code/pre inside
-    // Using .innerText on the container gets the text from all children
-    const code = container.innerText;
+    // .innerText safely gets only the text, ignoring the <code> tags
+    const code = container.innerText.trim();
 
-    // 3. Create the clean Mermaid div
     const mermaidDiv = document.createElement('div');
     mermaidDiv.className = 'mermaid';
     mermaidDiv.textContent = code;
 
-    // 4. Replace the entire Jekyll block with the new Mermaid div
+    // Replace the entire highlighter block with the Mermaid div
     container.parentNode.replaceChild(mermaidDiv, container);
   });
 
-  // 5. Execute rendering
+  // Run the parser on the new .mermaid divs
   mermaid.run();
 });
