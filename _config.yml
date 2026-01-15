@@ -7,6 +7,8 @@ url: "https://dornen.work"
 
 theme: jekyll-theme-console
 style: dark
+include:
+  - _headers
 header_pages:
   - index.md
   - about.md
