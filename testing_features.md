@@ -9,8 +9,8 @@ mermaid: true
 This is testing page. Yes, it is in header menu.
 
 ```mermaid
-flowchart TD
-A-->B
+flowchart TD;
+A-->B;
 ```
 ## Contact
 telegram: [Dornendin](https://t.me/dornendin)
