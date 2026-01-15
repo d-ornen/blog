@@ -8,5 +8,6 @@ extract text later from first pdf writeup.
 
 mermaid test:
 ```mermaid
-A-->B
+flowchart TD
+    A-->B
 ```
