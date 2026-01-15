@@ -10,6 +10,7 @@ style: dark
 header_pages:
   - index.md
   - about.md
+  - testing_features.md
 
 footer: '<a href="https://t.me/dornendin">Telegram</a>, <a href="https://github.com/d-ornen">Github</a>'
 plugins:
