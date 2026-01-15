@@ -2,7 +2,7 @@
 title: "Dornen.work"
 email: "blank@blank.com"
 description: "Technical blog. Mostly related to IT stuff"
-"
+baseurl: ""
 url: "https://dornen.work"
 
 theme: jekyll-theme-console
