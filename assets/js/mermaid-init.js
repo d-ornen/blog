@@ -2,8 +2,14 @@ document.addEventListener("DOMContentLoaded", function() {
   // 1. Initialize with specific security settings
   mermaid.initialize({ 
     startOnLoad: false, 
-    theme: 'forest',
-    securityLevel: 'loose' 
+    theme: 'dark',
+    securityLevel: 'loose',
+    themeVariables: {
+      // Optional: Force specific colors if 'dark' is still too dim
+      primaryColor: '#333',
+      primaryTextColor: '#fff',
+      lineColor: '#f8f8f2'
+    }
   });
 
   const containers = document.querySelectorAll('.language-mermaid');
