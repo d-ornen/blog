@@ -1,8 +1,13 @@
-<script src="{{ '/assets/js/mermaid.min.js' | relative_url }}"></script>
-<script>
-  mermaid.initialize({
-    startOnLoad: true,
-    theme: 'dark', // Perfect for your console dark theme
-    securityLevel: 'loose'
+<script type="module">
+  import mermaid from '/assets/js/mermaid.min.js';
+  mermaid.initialize({ startOnLoad: true, theme: 'dark', securityLevel: 'loose'});
+
+  // Optional: Auto-convert Jekyll's kramdown output to Mermaid format
+  document.querySelectorAll('pre.language-mermaid').forEach((block) => {
+    const code = block.querySelector('code').innerText;
+    const newPre = document.createElement('pre');
+    newPre.className = 'mermaid';
+    newPre.innerText = code;
+    block.parentNode.replaceChild(newPre, block);
   });
 </script>
