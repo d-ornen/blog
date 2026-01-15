@@ -1,5 +1,5 @@
 ---
-layout: mermaid
+layout: post
 title: "Testing"
 permalink: /testing/
 mermaid: true
