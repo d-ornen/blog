@@ -1,20 +1,2 @@
 <script src="{{ '/assets/js/mermaid.min.js' | relative_url }}"></script>
-<script>
-  // Initialize Mermaid
-  mermaid.initialize({ 
-    startOnLoad: true,
-    theme: 'dark',
-    securityLevel: 'loose' // Needed if you want to click elements in diagrams
-  });
-
-  // Convert Jekyll's Kramdown/Rouge output so Mermaid can read it
-  document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('pre.language-mermaid').forEach((block) => {
-      const code = block.querySelector('code').innerText;
-      const newPre = document.createElement('pre');
-      newPre.className = 'mermaid';
-      newPre.innerText = code;
-      block.parentNode.replaceChild(newPre, block);
-    });
-  });
-</script>
+<script src="{{ '/assets/js/mermaid-init.js' | relative_url }}"></script>
