@@ -6,10 +6,10 @@ baseurl: ""
 url: "https://dornen.work"
 
 theme: jekyll-theme-console
-style: dark
+style: nord
 include:
   - _headers
-  
+
 header_pages:
   - index.md
   - about.md
