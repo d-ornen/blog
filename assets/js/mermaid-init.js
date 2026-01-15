@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // 1. Initialize with specific security settings
   mermaid.initialize({ 
     startOnLoad: false, 
-    theme: 'default',
+    theme: 'forest',
     securityLevel: 'loose' 
   });
 
