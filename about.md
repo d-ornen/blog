@@ -6,11 +6,10 @@ permalink: /about/
 
 # $ whoami
 Hello, my name is Artsiom,
-Devops, ex reverse engineer (cryptography, binary deobfuscation)
+Primary skills: DevOps, automation
+Interests: binary deobfuscation, cryptography, OSINT, reconnaisance, machine learning.
 
-Interests:
-Cryptography, Machine Learning, automation.
-Sometimes I write content, over time it will be migrated to this blog.
+Over time I will migrate my whitepapers and researches to this blog.
 
 ## Contact
 telegram: [Dornendin](https://t.me/dornendin)
