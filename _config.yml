@@ -13,6 +13,7 @@ include:
 header_pages:
   - index.md
   - about.md
+  - manifesto.md
 
 footer: '<a href="https://t.me/dornendin">Telegram</a>, <a href="https://github.com/d-ornen">Github</a>'
 plugins:
