@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Future archive post 1"
+title: "Kata VM reverse engineering"
 date: 2026-01-14
 ---
 ![rev1Banner](assets/images/rev1Banner.webp)
