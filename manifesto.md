@@ -51,3 +51,24 @@ The engineering of low-latency systems is a discipline of removing abstractions.
 Тут мне сказать нечего, это просто аксиома. 
 
 ---
+Про легкие задачи
+
+The second reason is that DevOps seems to be particularly susceptible to
+yak shaving. If you haven’t heard of “yak shaving” before, I assure you, this
+is a term that you will grow to love (and hate). The best definition I’ve seen
+of this term comes from a blog post by Seth Godin:
+
+“I want to wax the car today.”
+“Oops, the hose is still broken from the winter. I’ll need to buy a new one
+at Home Depot.”
+“But Home Depot is on the other side of the Tappan Zee bridge and
+getting there without my EZPass is miserable because of the tolls.”
+“But, wait! I could borrow my neighbor’s EZPass…”
+“Bob won’t lend me his EZPass until I return the mooshi pillow my son
+borrowed, though.”
+“And we haven’t returned it because some of the stuffing fell out and we
+need to get some yak hair to restuff it.”
+And the next thing you know, you’re at the zoo, shaving a yak, all so you
+can wax your car.
+
+Золотая цитата, из книжки Brikman Y. Terraform. Up and Running.
