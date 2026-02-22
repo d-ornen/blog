@@ -3,7 +3,7 @@ layout: post
 title: "Deathbringer research"
 date: 2026-01-14
 ---
-[Rev2Banner](/assets/images/rev2Banner.webp)
+![Rev2Banner](/assets/images/rev2Banner.webp)
 1     Preface
 Greetings, in this article I will reverse engineer this crackme. The rules are to
 find how the serial key is being generated (Honestly, I’m not sure because the
