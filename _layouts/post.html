@@ -1,12 +1,7 @@
 ---
 layout: default
 ---
-<style>
-  .post-content img, .content img {
-    max-width: 100%;
-    height: auto;
-  }
-</style>
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 <article class="post">
   <h1>{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y" }}</time>
