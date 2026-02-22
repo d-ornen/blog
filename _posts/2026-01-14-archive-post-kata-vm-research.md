@@ -3,7 +3,7 @@ layout: post
 title: "Kata VM reverse engineering"
 date: 2026-01-14
 ---
-![rev1Banner](assets/images/rev1Banner.webp)
+![rev1Banner](/assets/images/rev1Banner.webp)
 
 1     Preface
 Greetings! In this article, I will reverse engineer VM obfuscated crackme. Dur-
