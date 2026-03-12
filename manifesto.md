@@ -72,3 +72,15 @@ And the next thing you know, you’re at the zoo, shaving a yak, all so you
 can wax your car.
 
 Золотая цитата, из книжки Brikman Y. Terraform. Up and Running.
+
+---
+
+Always set maximum restrictions to bash scripts. Check that your cloud runners have
+
+```bash
+set -euo pipefail
+```
+
+in your scripts and in parent runner context.
+
+---
