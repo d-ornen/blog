@@ -84,3 +84,7 @@ set -euo pipefail
 in your scripts and in parent runner context.
 
 ---
+
+even if you handle errors with pipefail - explicitly check for error codes in if conditions and sub-functions.
+errexit does not monitor for errors in those structures.
+[link with sacred knowledge](https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins:~:text=see%20Signals).-,inherit_errexit,-If%20set%2C%20command)
